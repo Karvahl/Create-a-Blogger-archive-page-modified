@@ -38,6 +38,6 @@ function DisplaytheTOC(PostTitles,PostURLs,PostYears,PostMonths,PostDays)
     {
 	if(parse)
 	NameOfMonth = MonthNames[parseInt(PostMonths[EntryNum],10)-1]
-	document.write('<a href ="'+PostURLs[EntryNum]+'">'+PostTitles[EntryNum]+"</a> ("+NameOfMonth+" "+parseInt(PostDays[EntryNum],10)+", "+PostYears[EntryNum]+")<br /><br />");
+	document.write('<a href ="'+PostURLs[EntryNum]+'">'+PostTitles[EntryNum]+"</a> ("+NameOfMonth+" "+parseInt(PostDays[EntryNum],10)+", "+PostYears[EntryNum]+")<br />");
     }
 }
